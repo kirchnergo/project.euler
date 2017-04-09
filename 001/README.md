@@ -10,7 +10,7 @@
 ```
 
 ```q
-sum distinct raze 3 5 * 1+ til each floor (n:999) % 3 5
+sum distinct raze f * 1+ til each floor (n:999) % f:3 5
 ```
 
 ```Mathematica
