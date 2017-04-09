@@ -36,6 +36,6 @@ Plus @@ Select[Range@999, Mod[#, 3] == 0 || Mod[#, 5] == 0 &]
 | Q        | 0.000043 |
 | Mathematica | 0.001748 |
 | F#       | - |
-| Clojure  | 0.006813 |
+| Clojure  | 0.004681 |
 
 
