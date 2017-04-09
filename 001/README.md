@@ -6,11 +6,11 @@
 
 
 ```J
-+/ ((0=3|n)+.(0=5|n)) # n=:>:i.999
++/ ((0=3|n) +. (0=5|n)) # n =: >: i.999
 ```
 
 ```q
-sum distinct raze 3 5 * 1+ til each floor (n:999)%3 5
+sum distinct raze 3 5 * 1+ til each floor (n:999) % 3 5
 ```
 
 ```Mathematica
