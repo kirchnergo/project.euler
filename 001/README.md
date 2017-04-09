@@ -5,7 +5,7 @@
 >Find the sum of all the multiples of 3 or 5 below 1000.
 
 ```q
-sum distinct raze 1+ til each ceiling (n:1000)%3 5
+sum distinct raze 3 5 * 1+ til each floor (n:999)%3 5
 ```
 
 ```J
@@ -15,3 +15,9 @@ sum distinct raze 1+ til each ceiling (n:1000)%3 5
 ```Mathematica
 Plus @@ Select[Range@999, Mod[#, 3] == 0 || Mod[#, 5] == 0 &]
 ```
+
+| Language | Time |
+|----------|------|
+| J        | 0.000034 |
+| Q        | 0.000043 |
+| Mathematica | 0.001748 |
