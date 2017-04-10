@@ -15,6 +15,7 @@ fib=: {."1@(]`(({: , +/)@])@.(> {:)^:(<_))&1 2
 ```
 
 ```q
+fib: {[x] x {[x] x,sum -2#x}/ 1 1}
 
 ```
 
@@ -32,7 +33,10 @@ Plus @@ Select[
 ```
 
 ```clojure
-
+(defn fib [f]
+  (let [n (reduce + (take-last 2 f))]
+    (if (< n 4000000) (fib (conj f n)) f)))
+(reduce + (filter even? (fib [1 2])) )
 ```
 
 | Language    | Time      |
