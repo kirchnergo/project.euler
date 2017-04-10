@@ -10,7 +10,8 @@
 
 
 ```J
-
+fib=: {."1@(]`(({: , +/)@])@.(> {:)^:(<_))&1 2
++/ (#~ -.@(2&|)) fib 1e6
 ```
 
 ```q
@@ -18,7 +19,12 @@
 ```
 
 ```Mathematica
+Total[Select[Table[Fibonacci[i], {i, 2, 30}], EvenQ]]
 
+(* 2nd variant *)
+Plus @@ Select[
+  First[Transpose[NestWhileList[{#1[[2]], #1[[1]] + #1[[2]]} &, {1,2}, #1[[2]] 
+  < 1000000 &]]], EvenQ]
 ```
 
 ```fsharp
@@ -29,10 +35,10 @@
 
 ```
 
-| Language    | Time     |
-|-------------|----------|
-| J           |  |
-| Q           |  |
-| Mathematica |  |
-| F#          |  |
-| Clojure     |  |
+| Language    | Time      |
+|-------------|-----------|
+| J           | 0.0000517 |
+| Q           | 0.        |
+| Mathematica | 0.0000312 |
+| F#          | 0. |
+| Clojure     | 0. |
