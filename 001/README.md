@@ -20,7 +20,7 @@ Plus @@ Select[Range@999, Mod[#, 3] == 0 || Mod[#, 5] == 0 &]
 ```fsharp
 [1..999]
     |> List.filter (fun num -> num % 3 = 0 | num % 5 = 0) 
-    |> List.sum
+    |> List.sum ;;
 ```
 
 ```clojure
@@ -30,12 +30,12 @@ Plus @@ Select[Range@999, Mod[#, 3] == 0 || Mod[#, 5] == 0 &]
   (reduce +))
 ```
 
-| Language | Time |
-|----------|------|
-| J        | 0.000034 |
-| Q        | 0.000043 |
+| Language    | Time     |
+|-------------|----------|
+| J           | 0.000034 |
+| Q           | 0.000043 |
 | Mathematica | 0.001748 |
-| F#       | - |
-| Clojure  | 0.004681 |
+| F#          | 0.000102 |
+| Clojure     | 0.004681 |
 
 
