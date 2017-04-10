@@ -31,3 +31,31 @@
 >```un = 1 − n + n2 − n3 + n4 − n5 + n6 − n7 + n8 − n9 + n10```
 
 >Find the sum of FITs for the BOPs.
+
+```J
+
+```
+
+```q
+
+```
+
+```Mathematica
+
+```
+
+```fsharp
+
+```
+
+```clojure
+
+```
+
+| Language    | Time     |
+|-------------|----------|
+| J           |  |
+| Q           |  |
+| Mathematica |  |
+| F#          |  |
+| Clojure     |  |
