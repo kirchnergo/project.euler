@@ -1,5 +1,12 @@
 # project.euler
-Solutions to the project Euler problems in various nice languages
+
+Solutions to the [Project Euler](https://projecteuler.net) problems in various nice languages:
+- [J](http://jsoftware.com/)
+- [Q](http://code.kx.com/qref//)
+- [Mathematica](http://www.wolfram.com/language/)
+- [F#](http://fsharp.org/)
+- [Clojure](https://clojure.org/)
+
 
 | Id                | Title                 | Tag |
 |-------------------|-----------------------|-----|
