@@ -33,7 +33,10 @@
 >Find the sum of FITs for the BOPs.
 
 ```J
-
+un   =: (11$1 _1)&p.
+beta =: [ %. ] ^/ i.@#@]
+fit  =: (beta >:@i.@#) p. >:@#
++/fit\un 1+i.10x
 ```
 
 ```q
@@ -41,7 +44,7 @@
 ```
 
 ```Mathematica
-
+Total[InterpolatingPolynomial[Table[(n^11 + 1)/(n + 1), {n, 1, #}], # + 1] & /@ Range[10]]
 ```
 
 ```fsharp
@@ -54,8 +57,8 @@
 
 | Language    | Time     |
 |-------------|----------|
-| J           |  |
+| J           | 0.008221 |
 | Q           |  |
-| Mathematica |  |
+| Mathematica | 0.000893 |
 | F#          |  |
 | Clojure     |  |
