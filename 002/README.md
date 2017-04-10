@@ -45,4 +45,4 @@ Plus @@ Select[
 | Q           | 0.0000031 |
 | Mathematica | 0.0000312 |
 | F#          | 0. |
-| Clojure     | 0. |
+| Clojure     | 0.1018519 |
