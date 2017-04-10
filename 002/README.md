@@ -16,7 +16,7 @@ fib=: {."1@(]`(({: , +/)@])@.(> {:)^:(<_))&1 2
 
 ```q
 fib: {[x] x {[x] x,sum -2#x}/ 1 1}
-
+{f:fib x; sum f where 0 = f mod 2} 30
 ```
 
 ```Mathematica
@@ -42,7 +42,7 @@ Plus @@ Select[
 | Language    | Time      |
 |-------------|-----------|
 | J           | 0.0000517 |
-| Q           | 0.        |
+| Q           | 0.0000031 |
 | Mathematica | 0.0000312 |
 | F#          | 0. |
 | Clojure     | 0. |
