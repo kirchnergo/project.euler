@@ -4,7 +4,7 @@
 
 >As an example, let us consider the sequence of cube numbers. This is defined by the generating function,
 
->```un = n3: 1, 8, 27, 64, 125, 216, ...```
+>```un = n^3: 1, 8, 27, 64, 125, 216, ...```
 
 >Suppose we were only given the first two terms of this sequence. Working on the principle that "simple is best" we should assume a linear relationship and predict the next term to be 15 (common difference 7). Even if we were presented with the first three terms, by the same principle of simplicity, a quadratic relationship should be assumed.
 
@@ -14,13 +14,13 @@
 
 >Hence we obtain the following OPs for the cubic sequence:
 
->```OP(1, n) = 1 	1, 1, 1, 1, ...```
+>```OP(1, n) = 1                  :1, 1, 1, 1, ...```
 
->```OP(2, n) = 7n−6 	1, 8, 15, ...```
+>```OP(2, n) = 7 n − 6 	          :1, 8, 15, ...```
 
->```OP(3, n) = 6n2−11n+6      	1, 8, 27, 58, ...```
+>```OP(3, n) = 6 n^2 − 11 n + 6   :1, 8, 27, 58, ...```
 
->```OP(4, n) = n3 	1, 8, 27, 64, 125, ...```
+>```OP(4, n) = n^3 	              :1, 8, 27, 64, 125, ...```
 
 >Clearly no BOPs exist for k ≥ 4.
 
