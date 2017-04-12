@@ -1,0 +1,27 @@
+#+Title: project.euler
+
+Solutions to the [[https://projecteuler.net][Project Euler]] problems in various nice languages: 
+- [[http://jsoftware.com/][J]] 
+- [[http://code.kx.com/qref//][Q]] 
+- [[http://www.wolfram.com/language/][Mathematica]] 
+- [[http://fsharp.org/][F#]] 
+- [[https://clojure.org/][Clojure]]
+
+| [[./001/README.org][1]]  | [[./002/README.org][2]]  | [[./003/READEM.org][3]]  | [[./004/READEM.org][4]]  | [[./005/READEM.org][5]]  | [[./006/READEM.org][6]]  | [[./007/READEM.org][7]]  | [[./008/READEM.org][8]]  | [[./009/READEM.org][9]]  | [[./010/READEM.org][10]] |
+| [[./001/README.org][11]] | [[./002/README.org][12]] | [[./003/READEM.org][13]] | [[./004/READEM.org][14]] | [[./005/READEM.org][15]] | [[./006/READEM.org][16]] | [[./007/READEM.org][17]] | [[./008/READEM.org][18]] | [[./009/READEM.org][19]] | [[./010/READEM.org][20]] |
+
+| Id | Title                       | Tag |
+|----+-----------------------------+-----|
+| [[file:001/README.md][1]]  | Multiples of 3 and 5        | NT  |
+| [[file:002/README.md][2]]  | Even Fibonacci numbers      |     |
+| [[file:003/README.md][3]]  | Largest prime factor        |     |
+| [[file:004/README.md][4]]  | Largest palindrome product  |     |
+| [[file:005/README.md][5]]  | Smallest multiple           |     |
+| [[file:.][6]]  | Sum square difference       |     |
+| [[file:.][7]]  | 10001st prime               |     |
+| [[file:.][8]]  | Largest product in a series |     |
+| [[file:.][9]]  | Special Pythagorean triplet |     |
+| [[file:./010/README.org][11]] | Summation of primes         |     |
+| [[./011/README.org][11]] | Largest product in a grid   |     |
+
+
