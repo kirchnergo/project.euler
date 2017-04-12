@@ -7,8 +7,11 @@ Solutions to the [[https://projecteuler.net][Project Euler]] problems in various
 - [[http://fsharp.org/][F#]] 
 - [[https://clojure.org/][Clojure]]
 
-| [[./001/README.org][1]]  | [[./002/README.org][2]]  | [[./003/READEM.org][3]]  | [[./004/READEM.org][4]]  | [[./005/READEM.org][5]]  | [[./006/READEM.org][6]]  | [[./007/READEM.org][7]]  | [[./008/READEM.org][8]]  | [[./009/READEM.org][9]]  | [[./010/READEM.org][10]] |
-| [[./001/README.org][11]] | [[./002/README.org][12]] | [[./003/READEM.org][13]] | [[./004/READEM.org][14]] | [[./005/READEM.org][15]] | [[./006/READEM.org][16]] | [[./007/READEM.org][17]] | [[./008/READEM.org][18]] | [[./009/READEM.org][19]] | [[./010/READEM.org][20]] |
+* Quick
+
+| [[./001/README.org][1]]  | [[./002/README.org][2]]  | [[./003/READEM.org][3]]  | [[./004/READEM.org][4]]  | [[./005/READEM.org][5]]  | [[./006/READEM.org][6]]  | [[./007/READEM.org][7]]  | [[./008/READEM.org][8]]  | [[./009/READEM.org][9]]  | [[./010/READEM.org][10]] | [[./001/README.org][11]] | [[./002/README.org][12]] | [[./003/READEM.org][13]] | [[./004/READEM.org][14]] | [[./005/READEM.org][15]] | [[./006/READEM.org][16]] | [[./007/READEM.org][17]] | [[./008/READEM.org][18]] | [[./009/READEM.org][19]] | [[./010/READEM.org][20]] |
+
+* Problems
 
 | Id | Title                       | Tag |
 |----+-----------------------------+-----|
